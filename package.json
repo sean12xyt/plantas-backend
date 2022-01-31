@@ -6,12 +6,22 @@
   "scripts": {
     "start": "npx nodemon index.js"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies":{
-    "cors":"^2.8.5",
-    "dotenv":"^10.0.0",
-    "express":"^4.17.1"
+  "dependencies": {
+    "bcryptjs": "",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "helmet": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "",
+    "sequelize": "^6.0.0"
   }
 }

@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 const sequelize = new Sequelize('Store-db','user','pass',{
 	dialect:'sqlite',
-	host:'./store.sqlite',
+	host:'store.sqlite',
 
 })
 

@@ -11,7 +11,13 @@ sequelize.sync().then(()=>{
 
 
 
-
 app.listen(app.get('port'),()=>{
 	console.log(`Server on the port ${app.get('port')}`)
 })
+
+
+
+
+
+
+
